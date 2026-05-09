@@ -66,11 +66,11 @@ $$I(X_i; Y) = \sum_{x,y} p(x,y) \log \frac{p(x,y)}{p(x)p(y)}$$
 
 Mutual information between channel spend $X_i$ and outcome $Y$ provides a non-parametric attribution measure.
 
-## 🏥 Merck Commercial Analytics Connection
+## 🏥 Enterprise Pharma Application
 
-This repo directly automates my **causal inference workflow at Merck**:
+This repo directly automates my **causal inference workflow in enterprise pharma settings**:
 
-| Merck Work | Agent Implementation |
+| Enterprise Work | Agent Implementation |
 |---|---|
 | Geo-lift analysis for TV campaigns | `CausalInferenceEngine` with synthetic control |
 | "Did email cause the Rx lift?" | DAG-based causal reasoning with do-calculus |
@@ -78,7 +78,7 @@ This repo directly automates my **causal inference workflow at Merck**:
 | PoC causal inference with NBE team | Bayesian structural time series |
 | PyMC-Marketing MMM interpretation | ROI Explainer with posterior reasoning |
 
-**Key insight:** At Merck, I PoC'd geo-lift analysis applying causal inference methods. This agent automates the "explain why" step that analysts spend hours on.
+**Key insight:** In enterprise pharma, I PoC'd geo-lift analysis applying causal inference methods. This agent automates the "explain why" step that analysts spend hours on.
 
 ## 🚀 Quickstart
 
@@ -106,18 +106,6 @@ python scripts/run_agent.py --query "Did our TV campaign cause the 8% Rx lift fo
 | Appropriate method selection | 22% | 65% | **78%** |
 | Actionable recommendations | 45% | 76% | **88%** |
 | Hallucination rate | 18% | 5% | **3%** |
-
-## 🎤 Interview Talking Points
-
-- **"How do you distinguish correlation from causation?"** — "I implement do-calculus via DAG-based reasoning, synthetic control for counterfactuals, and BSTS for time-series causal effects. The agent selects the right method based on data structure."
-- **"Why an agent, not a single model?"** — "Different causal questions need different tools. The router dispatches to specialized engines — same architecture I use at Merck with my agentic ecosystem."
-
-## 🔗 Liquid AI Connection
-
-- **Agentic:** Tool-using agent architecture aligns with enterprise workflows
-- **Enterprise:** Pharma customers need causal reasoning, not just correlational answers
-- **Small model:** Proves LFM2.5 can do sophisticated causal reasoning with fine-tuning
-- **Privacy:** All causal computation runs locally
 
 ## License
 
