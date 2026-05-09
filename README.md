@@ -110,3 +110,11 @@ python scripts/run_agent.py --query "Did our TV campaign cause the 8% Rx lift fo
 ## License
 
 MIT
+
+## 📸 Visual Tour
+
+![comparison](viz/comparison.png)
+
+![training](viz/training.gif)
+
+---
