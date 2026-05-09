@@ -1,0 +1,11 @@
+{
+  "did": {
+    "ate": 14.68,
+    "ci_low": 11.48,
+    "ci_high": 17.88
+  },
+  "synthetic_control": {
+    "ate": 11.07
+  },
+  "recommendation": "DiD preferred (parallel trends hold)"
+}
