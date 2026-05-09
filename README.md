@@ -1,6 +1,9 @@
-# 🔍 MMM Causal Explainer Agent
+# Marketing Mix Model — Causal Explainer Agent
 
-> Agentic AI system that explains Marketing Mix Model results using causal inference reasoning, powered by fine-tuned LFM2.5 with tool-use capabilities.
+> An agentic system that interprets Marketing Mix Model outputs, selects appropriate causal methods (DiD, Synthetic Control, BSTS), and generates natural-language explanations of promotional ROI.
+>
+> **Context:** Built to automate the explanation workflow for MMM results. Analysts spend significant time translating Bayesian posterior distributions into business recommendations — this agent handles the first pass.
+
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
